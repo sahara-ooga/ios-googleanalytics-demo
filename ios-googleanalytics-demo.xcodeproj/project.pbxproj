@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DD79BDE6FA2C648F36820C1 /* Pods_ios_googleanalytics_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11175861C945387AE185DB3E /* Pods_ios_googleanalytics_demoTests.framework */; };
+		35223130D7A41FBC9C1AEB79 /* Pods_ios_googleanalytics_demoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034DDB7A807461E2BD50C70A /* Pods_ios_googleanalytics_demoUITests.framework */; };
+		9F2347801E75CDF400AE4BF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F23477F1E75CDF400AE4BF2 /* AppDelegate.swift */; };
+		9F2347821E75CDF400AE4BF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2347811E75CDF400AE4BF2 /* ViewController.swift */; };
+		9F2347851E75CDF400AE4BF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2347831E75CDF400AE4BF2 /* Main.storyboard */; };
+		9F2347871E75CDF400AE4BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F2347861E75CDF400AE4BF2 /* Assets.xcassets */; };
+		9F23478A1E75CDF400AE4BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2347881E75CDF400AE4BF2 /* LaunchScreen.storyboard */; };
+		9F2347951E75CDF500AE4BF2 /* ios_googleanalytics_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2347941E75CDF500AE4BF2 /* ios_googleanalytics_demoTests.swift */; };
+		9F2347A01E75CDF500AE4BF2 /* ios_googleanalytics_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F23479F1E75CDF500AE4BF2 /* ios_googleanalytics_demoUITests.swift */; };
+		9F2347AE1E75D83800AE4BF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F2347AD1E75D83800AE4BF2 /* GoogleService-Info.plist */; };
+		F48E682F32C25D8A31A3A659 /* Pods_ios_googleanalytics_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8C4C142523945F36C80A82 /* Pods_ios_googleanalytics_demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F2347911E75CDF500AE4BF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F2347741E75CDF400AE4BF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F23477B1E75CDF400AE4BF2;
+			remoteInfo = "ios-googleanalytics-demo";
+		};
+		9F23479C1E75CDF500AE4BF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F2347741E75CDF400AE4BF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F23477B1E75CDF400AE4BF2;
+			remoteInfo = "ios-googleanalytics-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034DDB7A807461E2BD50C70A /* Pods_ios_googleanalytics_demoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_googleanalytics_demoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11175861C945387AE185DB3E /* Pods_ios_googleanalytics_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_googleanalytics_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B621D6C2231D7FA54CACFF /* Pods-ios-googleanalytics-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-googleanalytics-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-googleanalytics-demo/Pods-ios-googleanalytics-demo.release.xcconfig"; sourceTree = "<group>"; };
+		9F23477C1E75CDF400AE4BF2 /* ios-googleanalytics-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-googleanalytics-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F23477F1E75CDF400AE4BF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F2347811E75CDF400AE4BF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F2347841E75CDF400AE4BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F2347861E75CDF400AE4BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F2347891E75CDF400AE4BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F23478B1E75CDF400AE4BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F2347901E75CDF500AE4BF2 /* ios-googleanalytics-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-googleanalytics-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2347941E75CDF500AE4BF2 /* ios_googleanalytics_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_googleanalytics_demoTests.swift; sourceTree = "<group>"; };
+		9F2347961E75CDF500AE4BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F23479B1E75CDF500AE4BF2 /* ios-googleanalytics-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-googleanalytics-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F23479F1E75CDF500AE4BF2 /* ios_googleanalytics_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_googleanalytics_demoUITests.swift; sourceTree = "<group>"; };
+		9F2347A11E75CDF500AE4BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F2347AD1E75D83800AE4BF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9F2347AF1E75E0EB00AE4BF2 /* ios-googleanalytics-demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-googleanalytics-demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		A6388C8A9CC0A374E692478D /* Pods-ios-googleanalytics-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-googleanalytics-demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-googleanalytics-demoTests/Pods-ios-googleanalytics-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B20570801A7512E3BF80CFAA /* Pods-ios-googleanalytics-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-googleanalytics-demoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-googleanalytics-demoUITests/Pods-ios-googleanalytics-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB5168B4D67C0C15E289E968 /* Pods-ios-googleanalytics-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-googleanalytics-demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-googleanalytics-demoTests/Pods-ios-googleanalytics-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6EAED81216D4FA9EFD5F687 /* Pods-ios-googleanalytics-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-googleanalytics-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-googleanalytics-demo/Pods-ios-googleanalytics-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		CF8C4C142523945F36C80A82 /* Pods_ios_googleanalytics_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_googleanalytics_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE803F7F63D5263116FA2087 /* Pods-ios-googleanalytics-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-googleanalytics-demoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-googleanalytics-demoUITests/Pods-ios-googleanalytics-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F2347791E75CDF400AE4BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48E682F32C25D8A31A3A659 /* Pods_ios_googleanalytics_demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F23478D1E75CDF500AE4BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD79BDE6FA2C648F36820C1 /* Pods_ios_googleanalytics_demoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2347981E75CDF500AE4BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35223130D7A41FBC9C1AEB79 /* Pods_ios_googleanalytics_demoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		238EB8A931DF173A543E134C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6EAED81216D4FA9EFD5F687 /* Pods-ios-googleanalytics-demo.debug.xcconfig */,
+				45B621D6C2231D7FA54CACFF /* Pods-ios-googleanalytics-demo.release.xcconfig */,
+				A6388C8A9CC0A374E692478D /* Pods-ios-googleanalytics-demoTests.debug.xcconfig */,
+				BB5168B4D67C0C15E289E968 /* Pods-ios-googleanalytics-demoTests.release.xcconfig */,
+				B20570801A7512E3BF80CFAA /* Pods-ios-googleanalytics-demoUITests.debug.xcconfig */,
+				FE803F7F63D5263116FA2087 /* Pods-ios-googleanalytics-demoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F2347731E75CDF400AE4BF2 = {
+			isa = PBXGroup;
+			children = (
+				9F23477E1E75CDF400AE4BF2 /* ios-googleanalytics-demo */,
+				9F2347931E75CDF500AE4BF2 /* ios-googleanalytics-demoTests */,
+				9F23479E1E75CDF500AE4BF2 /* ios-googleanalytics-demoUITests */,
+				9F23477D1E75CDF400AE4BF2 /* Products */,
+				238EB8A931DF173A543E134C /* Pods */,
+				A05065A3DDF37894B43BEBAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F23477D1E75CDF400AE4BF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F23477C1E75CDF400AE4BF2 /* ios-googleanalytics-demo.app */,
+				9F2347901E75CDF500AE4BF2 /* ios-googleanalytics-demoTests.xctest */,
+				9F23479B1E75CDF500AE4BF2 /* ios-googleanalytics-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F23477E1E75CDF400AE4BF2 /* ios-googleanalytics-demo */ = {
+			isa = PBXGroup;
+			children = (
+				9F23477F1E75CDF400AE4BF2 /* AppDelegate.swift */,
+				9F2347811E75CDF400AE4BF2 /* ViewController.swift */,
+				9F2347831E75CDF400AE4BF2 /* Main.storyboard */,
+				9F2347861E75CDF400AE4BF2 /* Assets.xcassets */,
+				9F2347881E75CDF400AE4BF2 /* LaunchScreen.storyboard */,
+				9F2347AD1E75D83800AE4BF2 /* GoogleService-Info.plist */,
+				9F23478B1E75CDF400AE4BF2 /* Info.plist */,
+				9F2347AF1E75E0EB00AE4BF2 /* ios-googleanalytics-demo-Bridging-Header.h */,
+			);
+			path = "ios-googleanalytics-demo";
+			sourceTree = "<group>";
+		};
+		9F2347931E75CDF500AE4BF2 /* ios-googleanalytics-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F2347941E75CDF500AE4BF2 /* ios_googleanalytics_demoTests.swift */,
+				9F2347961E75CDF500AE4BF2 /* Info.plist */,
+			);
+			path = "ios-googleanalytics-demoTests";
+			sourceTree = "<group>";
+		};
+		9F23479E1E75CDF500AE4BF2 /* ios-googleanalytics-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F23479F1E75CDF500AE4BF2 /* ios_googleanalytics_demoUITests.swift */,
+				9F2347A11E75CDF500AE4BF2 /* Info.plist */,
+			);
+			path = "ios-googleanalytics-demoUITests";
+			sourceTree = "<group>";
+		};
+		A05065A3DDF37894B43BEBAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF8C4C142523945F36C80A82 /* Pods_ios_googleanalytics_demo.framework */,
+				11175861C945387AE185DB3E /* Pods_ios_googleanalytics_demoTests.framework */,
+				034DDB7A807461E2BD50C70A /* Pods_ios_googleanalytics_demoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F23477B1E75CDF400AE4BF2 /* ios-googleanalytics-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2347A41E75CDF500AE4BF2 /* Build configuration list for PBXNativeTarget "ios-googleanalytics-demo" */;
+			buildPhases = (
+				3CEAF2EAB38AB61F51265EB0 /* [CP] Check Pods Manifest.lock */,
+				9F2347781E75CDF400AE4BF2 /* Sources */,
+				9F2347791E75CDF400AE4BF2 /* Frameworks */,
+				9F23477A1E75CDF400AE4BF2 /* Resources */,
+				6F7DAAF1D419B46C34FA79F4 /* [CP] Embed Pods Frameworks */,
+				BFE47FACB0154C4704B25753 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-googleanalytics-demo";
+			productName = "ios-googleanalytics-demo";
+			productReference = 9F23477C1E75CDF400AE4BF2 /* ios-googleanalytics-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F23478F1E75CDF500AE4BF2 /* ios-googleanalytics-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2347A71E75CDF500AE4BF2 /* Build configuration list for PBXNativeTarget "ios-googleanalytics-demoTests" */;
+			buildPhases = (
+				A53CC964216BCCDCBD86D086 /* [CP] Check Pods Manifest.lock */,
+				9F23478C1E75CDF500AE4BF2 /* Sources */,
+				9F23478D1E75CDF500AE4BF2 /* Frameworks */,
+				9F23478E1E75CDF500AE4BF2 /* Resources */,
+				AA6513FD5F40F06A1E435581 /* [CP] Embed Pods Frameworks */,
+				BF9B604BC01E67D9930C1479 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F2347921E75CDF500AE4BF2 /* PBXTargetDependency */,
+			);
+			name = "ios-googleanalytics-demoTests";
+			productName = "ios-googleanalytics-demoTests";
+			productReference = 9F2347901E75CDF500AE4BF2 /* ios-googleanalytics-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F23479A1E75CDF500AE4BF2 /* ios-googleanalytics-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2347AA1E75CDF500AE4BF2 /* Build configuration list for PBXNativeTarget "ios-googleanalytics-demoUITests" */;
+			buildPhases = (
+				4AE6156A43FAC351382D8648 /* [CP] Check Pods Manifest.lock */,
+				9F2347971E75CDF500AE4BF2 /* Sources */,
+				9F2347981E75CDF500AE4BF2 /* Frameworks */,
+				9F2347991E75CDF500AE4BF2 /* Resources */,
+				CD9F74FFC9BF9604845B4031 /* [CP] Embed Pods Frameworks */,
+				D3D91302F29645D96AAE3A6D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F23479D1E75CDF500AE4BF2 /* PBXTargetDependency */,
+			);
+			name = "ios-googleanalytics-demoUITests";
+			productName = "ios-googleanalytics-demoUITests";
+			productReference = 9F23479B1E75CDF500AE4BF2 /* ios-googleanalytics-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F2347741E75CDF400AE4BF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = k_moto;
+				TargetAttributes = {
+					9F23477B1E75CDF400AE4BF2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					9F23478F1E75CDF500AE4BF2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F23477B1E75CDF400AE4BF2;
+					};
+					9F23479A1E75CDF500AE4BF2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F23477B1E75CDF400AE4BF2;
+					};
+				};
+			};
+			buildConfigurationList = 9F2347771E75CDF400AE4BF2 /* Build configuration list for PBXProject "ios-googleanalytics-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F2347731E75CDF400AE4BF2;
+			productRefGroup = 9F23477D1E75CDF400AE4BF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F23477B1E75CDF400AE4BF2 /* ios-googleanalytics-demo */,
+				9F23478F1E75CDF500AE4BF2 /* ios-googleanalytics-demoTests */,
+				9F23479A1E75CDF500AE4BF2 /* ios-googleanalytics-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F23477A1E75CDF400AE4BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F23478A1E75CDF400AE4BF2 /* LaunchScreen.storyboard in Resources */,
+				9F2347AE1E75D83800AE4BF2 /* GoogleService-Info.plist in Resources */,
+				9F2347871E75CDF400AE4BF2 /* Assets.xcassets in Resources */,
+				9F2347851E75CDF400AE4BF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F23478E1E75CDF500AE4BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2347991E75CDF500AE4BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CEAF2EAB38AB61F51265EB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4AE6156A43FAC351382D8648 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F7DAAF1D419B46C34FA79F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-googleanalytics-demo/Pods-ios-googleanalytics-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A53CC964216BCCDCBD86D086 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA6513FD5F40F06A1E435581 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-googleanalytics-demoTests/Pods-ios-googleanalytics-demoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF9B604BC01E67D9930C1479 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-googleanalytics-demoTests/Pods-ios-googleanalytics-demoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFE47FACB0154C4704B25753 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-googleanalytics-demo/Pods-ios-googleanalytics-demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD9F74FFC9BF9604845B4031 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-googleanalytics-demoUITests/Pods-ios-googleanalytics-demoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3D91302F29645D96AAE3A6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-googleanalytics-demoUITests/Pods-ios-googleanalytics-demoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F2347781E75CDF400AE4BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2347821E75CDF400AE4BF2 /* ViewController.swift in Sources */,
+				9F2347801E75CDF400AE4BF2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F23478C1E75CDF500AE4BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2347951E75CDF500AE4BF2 /* ios_googleanalytics_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2347971E75CDF500AE4BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2347A01E75CDF500AE4BF2 /* ios_googleanalytics_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F2347921E75CDF500AE4BF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F23477B1E75CDF400AE4BF2 /* ios-googleanalytics-demo */;
+			targetProxy = 9F2347911E75CDF500AE4BF2 /* PBXContainerItemProxy */;
+		};
+		9F23479D1E75CDF500AE4BF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F23477B1E75CDF400AE4BF2 /* ios-googleanalytics-demo */;
+			targetProxy = 9F23479C1E75CDF500AE4BF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F2347831E75CDF400AE4BF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F2347841E75CDF400AE4BF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F2347881E75CDF400AE4BF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F2347891E75CDF400AE4BF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F2347A21E75CDF500AE4BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F2347A31E75CDF500AE4BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F2347A51E75CDF500AE4BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6EAED81216D4FA9EFD5F687 /* Pods-ios-googleanalytics-demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "ios-googleanalytics-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-googleanalytics-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-googleanalytics-demo/ios-googleanalytics-demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F2347A61E75CDF500AE4BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B621D6C2231D7FA54CACFF /* Pods-ios-googleanalytics-demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "ios-googleanalytics-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-googleanalytics-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-googleanalytics-demo/ios-googleanalytics-demo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9F2347A81E75CDF500AE4BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6388C8A9CC0A374E692478D /* Pods-ios-googleanalytics-demoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-googleanalytics-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-googleanalytics-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-googleanalytics-demo.app/ios-googleanalytics-demo";
+			};
+			name = Debug;
+		};
+		9F2347A91E75CDF500AE4BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB5168B4D67C0C15E289E968 /* Pods-ios-googleanalytics-demoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-googleanalytics-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-googleanalytics-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-googleanalytics-demo.app/ios-googleanalytics-demo";
+			};
+			name = Release;
+		};
+		9F2347AB1E75CDF500AE4BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B20570801A7512E3BF80CFAA /* Pods-ios-googleanalytics-demoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ios-googleanalytics-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-googleanalytics-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ios-googleanalytics-demo";
+			};
+			name = Debug;
+		};
+		9F2347AC1E75CDF500AE4BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE803F7F63D5263116FA2087 /* Pods-ios-googleanalytics-demoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ios-googleanalytics-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-googleanalytics-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ios-googleanalytics-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F2347771E75CDF400AE4BF2 /* Build configuration list for PBXProject "ios-googleanalytics-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2347A21E75CDF500AE4BF2 /* Debug */,
+				9F2347A31E75CDF500AE4BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2347A41E75CDF500AE4BF2 /* Build configuration list for PBXNativeTarget "ios-googleanalytics-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2347A51E75CDF500AE4BF2 /* Debug */,
+				9F2347A61E75CDF500AE4BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2347A71E75CDF500AE4BF2 /* Build configuration list for PBXNativeTarget "ios-googleanalytics-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2347A81E75CDF500AE4BF2 /* Debug */,
+				9F2347A91E75CDF500AE4BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2347AA1E75CDF500AE4BF2 /* Build configuration list for PBXNativeTarget "ios-googleanalytics-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2347AB1E75CDF500AE4BF2 /* Debug */,
+				9F2347AC1E75CDF500AE4BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F2347741E75CDF400AE4BF2 /* Project object */;
+}
