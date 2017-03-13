@@ -1,5 +1,5 @@
 # ios-googleanalytics-demo
-iOS Google Analytics を利用したCRUD操作のサンプルです。
+iOS Google Analytics を利用したサンプルです。
 
 ## 1. PodFile
 
