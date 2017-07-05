@@ -7,10 +7,13 @@ iOS Google Analytics を利用したサンプルです。
 pod ‘Google/Analytics’
 ```
 
-## 2. 設定ファイルを取得する
-
+## 2. 設定ファイル
+### 2-1 設定ファイルを取得する
 https://developers.google.com/analytics/devguides/collection/ios/v3/?ver=swift&hl=ja#get-config<br>
 プロジェクトのルートに取得した GoogleService-Info.plist を配置する<br>
+
+### 2-2 TRACKING IDの設定
+GoogleService-Info.plistの`TRACKING_ID`の値に、[GoogleAnalyticsのサイト](https://www.google.com/intl/ja_jp/analytics/)から取得するトラッキングIDを設定する。（サイトの使い方は[こちら](http://dev.classmethod.jp/smartphone/iphone/google-analytics-for-ios-1/)参照）
 
 ## 3. Bridging-Headerを作成する
 Bridging-Headerを作成して以下を記述する<br>
