@@ -17,18 +17,24 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //スクリーンのトラッキング
         tracker = GAI.sharedInstance().defaultTracker!
         tracker.set(kGAIScreenName, value: "メインスクリーン")
         tracker.send(GAIDictionaryBuilder.createScreenView().build() as [NSObject: AnyObject])
         tracker.set(kGAIScreenName, value: nil)
         
-        button.addTarget(self, action: #selector(ViewController.onClick(sender:)), for: .touchDown)
+        button.addTarget(self,
+                         action: #selector(ViewController.onClick(sender:)),
+                         for: .touchDown)
 
     }
 
     internal func onClick(sender: UIButton){
-        
-        let build = GAIDictionaryBuilder.createEvent(withCategory: "ボタン",action: "ボタン押下",label: "メインボタン",value: 1).build() as [NSObject : AnyObject]
+        //イベントのトラッキング
+        let build = GAIDictionaryBuilder.createEvent(withCategory: "ボタン",
+                                                     action: "ボタン押下",
+                                                     label: "メインボタン",
+                                                     value: 1).build() as [NSObject : AnyObject]
         tracker?.send(build)
         
         

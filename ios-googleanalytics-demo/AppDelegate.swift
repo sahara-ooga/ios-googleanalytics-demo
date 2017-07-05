@@ -14,12 +14,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // G/A初期設定
         let gai = GAI.sharedInstance()!
         gai.trackUncaughtExceptions = true
         
-        if let path = Bundle.main.path(forResource: "GoogleService-Info", ofType: "plist") {
+        if let path = Bundle.main.path(forResource: "GoogleService-Info",
+                                       ofType: "plist") {
             if let propertyList = NSDictionary(contentsOfFile: path) as? [String: AnyObject] {
                 let trackingId = propertyList["TRACKING_ID"] as! String
                 gai.tracker(withTrackingId: trackingId)
