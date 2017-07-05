@@ -66,10 +66,22 @@ tracker?.send(build)
 ## 参考
 ### Google公式
 - [iOS 向けアナリティクスを試してみる](https://developers.google.com/analytics/devguides/collection/ios/v3/start?ver=swift&hl=ja)
+
 - [iOS アプリにアナリティクスを追加する](https://developers.google.com/analytics/devguides/collection/ios/v3/?ver=swift&hl=ja)
 
+- [Googleアナリティクス](https://www.google.com/intl/ja_jp/analytics/#?modal_active=none)
+
+- [Google アナリティクス アプリレポートのスタートガイド](https://support.google.com/firebase/answer/6317479)
+<br>FirebaseSDKに統合された新トラッキング機能の説明.
+
+
 ### その他
-- [iOSアプリへの Google Analytics 導入方法](https://lab.dolice.net/blog/2015/06/26/ios-google-analytics/)
+- [iOSアプリへの Google Analytics 導入方法](https://lab.dolice.net/blog/2015/06/26/ios-google-analytics/)(Objective-C)
+
 - [[iOS]Google Analytics iOS #1 ページビューを計測する](http://dev.classmethod.jp/smartphone/iphone/google-analytics-for-ios-1/)
+
 - [Swift版iOSアプリをGoogleアナリティクスで計測する手順(v3.15)](http://2m3g1.com/3149.html)
+
 - [iOS版GoogleAnalyticsを利用](http://qiita.com/ysk_1031/items/245ff929ea76f0eda11d)
+
+- [Swift環境でGoogleAnalyticsを設定する](http://qiita.com/ENDoDo/items/3fddde7ee9d3e74deb82)
